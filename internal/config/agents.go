@@ -182,7 +182,7 @@ var builtinPresets = map[AgentPreset]*AgentPresetInfo{
 	AgentCopilot: {
 		Name:                AgentCopilot,
 		Command:             "copilot",
-		Args:                []string{"--allow-all-paths"},
+		Args:                []string{"--allow-all-paths", "--allow-all-tools"},
 		ProcessNames:        []string{"copilot"},
 		SessionIDEnv:        "",
 		ResumeFlag:          "--resume",

@@ -444,7 +444,7 @@ func TestAgentCommandGeneration(t *testing.T) {
 		{
 			preset:       AgentCopilot,
 			wantCommand:  "copilot",
-			wantContains: []string{"--allow-all-paths"},
+			wantContains: []string{"--allow-all-paths", "--allow-all-tools"},
 		},
 	}
 
