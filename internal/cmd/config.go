@@ -39,8 +39,8 @@ var configAgentListCmd = &cobra.Command{
 	Short: "List all agents",
 	Long: `List all available agents (built-in and custom).
 
-Shows all built-in agent presets (claude, gemini, codex) and any
-custom agents defined in your town settings.
+Shows all built-in agent presets and any custom agents defined in 
+your town settings.
 
 Examples:
   gt config agent list           # Text output
